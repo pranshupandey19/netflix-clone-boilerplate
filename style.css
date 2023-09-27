@@ -181,7 +181,7 @@ div .img1{
 
   background-color: rgb(39, 38, 38);
   margin-top: -5px;
-  height: 10000px;
+  height: 1200px;
 }
 #see_again1{
   color: white;
@@ -197,7 +197,7 @@ div .img1{
 {
   width: 1375px;
   height: 150px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
   position: relative;
   left: 55px;
   
@@ -205,8 +205,58 @@ div .img1{
   
   
 }
+
+.img3 img
+{
+  height: 105px;
+}
 /* #top10{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
 } */
+
+#footer
+{
+  height:500px ;
+  width: 1000px;
+  /* border: 2px solid; */
+  margin-left: 250px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+#social
+{
+  display: flex;
+  gap: 20px;
+}
+.main
+{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#box
+{
+  height: 45px;
+  width: 130px;
+  border: 2px solid black;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#code
+{
+  margin-top: 50px;
+}
+.main1{
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  right: 70px;
+}
